@@ -167,4 +167,17 @@ public class MyString {
          String result = str.substring(0, randomIndex) + ch + str.substring(randomIndex);
          return result;
     }    
+
+    public static String lowerCase(String str) {
+        int length =str.length();
+        char[] copy = str.toCharArray();
+        for(int i=0;i<length;i++)
+        {
+        if (str.charAt(i)>='A' && str.charAt(i)<='Z')
+        {
+            copy[i] = (char)(copy[i] + 32);
+        }
+        }
+        return new String(copy);
+        }
 }
