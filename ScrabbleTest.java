@@ -129,7 +129,6 @@ public class ScrabbleTest {
             
             System.out.println("Expected sequence of plays:");
             System.out.println("1. 'train' -> score: 25");
-            System.out.println();
             System.out.println("\nActual output:");
             System.out.println(output);
             

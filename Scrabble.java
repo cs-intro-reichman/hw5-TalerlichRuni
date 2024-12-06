@@ -53,7 +53,7 @@ public class Scrabble {
 		for(int i=0;i<NUM_OF_WORDS;i++)
 		{
 		String dword= DICTIONARY[i];
-		if (dword == word) return true;
+		if (dword.equals(word)) return true;
 		}
 		return false;
 	}
@@ -91,7 +91,7 @@ public class Scrabble {
     // 2. The user gets the Scrabble points of the entered word.
     // 3. The user is prompted to enter another word, or '.' to end the hand. 
 	public static void playHand(String hand) {
-		int n = hand.length();
+		//int n = hand.length();
 		int score = 0;
 		// Declares the variable in to refer to an object of type In, and initializes it to represent
 		// the stream of characters coming from the keyboard. Used for reading the user's inputs.   
