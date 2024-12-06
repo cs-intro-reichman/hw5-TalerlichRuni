@@ -55,4 +55,4 @@ public class MyStringTest {
         System.out.println("abc - b -> " + MyString.remove("abc", "b") + " (expected: ac)");
         System.out.println("hello - empty string -> " + MyString.remove("hello", "") + " (expected: hello)");
     }
-} 
+}
