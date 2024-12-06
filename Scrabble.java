@@ -53,7 +53,7 @@ public class Scrabble {
 		for(int i=0;i<DICTIONARY.length;i++)
 		{
 			String dword= DICTIONARY[i];
-			if (dword == word) return true;
+			if (dword.contains(word)) return true;
 		}
 		return false;
 	}
